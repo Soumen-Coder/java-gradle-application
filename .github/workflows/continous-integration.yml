@@ -2,11 +2,9 @@ name: CI/CD Workflow For Java Gradle Application
 
 on:
   push:
-    branches:
-      - main
+    branches: [ master ]
   pull_request:
-    branches:
-      - main
+    branches: [ master ]
 
 jobs:
   build:
